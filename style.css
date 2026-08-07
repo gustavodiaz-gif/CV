@@ -587,7 +587,9 @@ ul {
     font-size: 13.5px;
     line-height: 1.6;
     color: var(--text-secondary);
-    text-align: left;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 /* Experience / Timeline Section */
@@ -700,6 +702,9 @@ ul {
     color: var(--text-secondary);
     position: relative;
     line-height: 1.5;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 .job-bullet-points li::before {
@@ -740,6 +745,9 @@ ul {
 .project-description {
     font-size: 13px;
     color: var(--text-secondary);
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 .project-bullet-points {
@@ -755,6 +763,9 @@ ul {
     color: var(--text-secondary);
     position: relative;
     line-height: 1.5;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 .project-bullet-points li::before {
@@ -783,6 +794,9 @@ ul {
     font-size: 13px;
     line-height: 1.6;
     color: var(--text-secondary);
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 /* Copy Buttons & Tooltips */
